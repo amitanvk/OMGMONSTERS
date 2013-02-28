@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- TODO: replace this Asset with your own XML asset data. -->
+  <Asset Type="VGDevLib.Spawn[][]">
+    <Item>
+      <Item>
+        <ID>2</ID>
+        <number>1</number>
+        <delay>0</delay>
+        <spawnPoint>-1</spawnPoint>
+      </Item>
+    </Item>
+    <Item>
+      <Item>
+        <ID>1</ID>
+        <number>1</number>
+        <delay>0</delay>
+        <spawnPoint>-1</spawnPoint>
+      </Item>
+    </Item>
+    <Item>
+      <Item>
+        <ID>1</ID>
+        <number>1</number>
+        <delay>0</delay>
+        <spawnPoint>-1</spawnPoint>
+      </Item>
+    </Item>
+    <Item>
+      <Item>
+        <ID>4</ID>
+        <number>2</number>
+        <delay>0</delay>
+        <spawnPoint>1</spawnPoint>
+      </Item>
+    </Item>
+  </Asset>
+</XnaContent> 

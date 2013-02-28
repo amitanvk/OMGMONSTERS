@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="ProjectMercury.ParticleEffect">
+    <Item>
+      <Name>Big Stars</Name>
+      <Budget>15</Budget>
+      <Term>0.75</Term>
+      <ReleaseQuantity>1</ReleaseQuantity>
+      <Enabled>False</Enabled>
+      <ReleaseSpeed>
+        <Value>96</Value>
+        <Variation>64</Variation>
+      </ReleaseSpeed>
+      <ReleaseColour>
+        <Value>0 0.7529412 0</Value>
+        <Variation>0 0 0</Variation>
+      </ReleaseColour>
+      <ReleaseOpacity>
+        <Value>1</Value>
+        <Variation>0</Variation>
+      </ReleaseOpacity>
+      <ReleaseScale>
+        <Value>48</Value>
+        <Variation>24</Variation>
+      </ReleaseScale>
+      <ReleaseRotation>
+        <Value>0</Value>
+        <Variation>0</Variation>
+      </ReleaseRotation>
+      <ReleaseImpulse>0 0</ReleaseImpulse>
+      <ParticleTextureAssetName>Particle Effects//Textures//MultiDot</ParticleTextureAssetName>
+      <Modifiers>
+        <Item Type="ProjectMercury.Modifiers.OpacityModifier">
+          <Initial>1</Initial>
+          <Ultimate>0</Ultimate>
+        </Item>
+        <Item Type="ProjectMercury.Modifiers.ColourModifier">
+          <InitialColour>1 0.5019608 1</InitialColour>
+          <UltimateColour>1 0.5019608 0</UltimateColour>
+        </Item>
+        <Item Type="ProjectMercury.Modifiers.ScaleInterpolatorModifier">
+          <InitialScale>48</InitialScale>
+          <MiddleScale>64</MiddleScale>
+          <MiddlePosition>0.4</MiddlePosition>
+          <FinalScale>16</FinalScale>
+        </Item>
+        <Item Type="ProjectMercury.Modifiers.DampingModifier">
+          <DampingCoefficient>5</DampingCoefficient>
+        </Item>
+      </Modifiers>
+      <BlendMode>Alpha</BlendMode>
+      <TriggerOffset>0 0</TriggerOffset>
+      <MinimumTriggerPeriod>0.25</MinimumTriggerPeriod>
+    </Item>
+    <Item>
+      <Name>Copy of Sparkles</Name>
+      <Budget>5000</Budget>
+      <Term>0.3</Term>
+      <ReleaseQuantity>50</ReleaseQuantity>
+      <Enabled>True</Enabled>
+      <ReleaseSpeed>
+        <Value>48</Value>
+        <Variation>96</Variation>
+      </ReleaseSpeed>
+      <ReleaseColour>
+        <Value>0 0.7529412 0</Value>
+        <Variation>0 0 0</Variation>
+      </ReleaseColour>
+      <ReleaseOpacity>
+        <Value>1</Value>
+        <Variation>0</Variation>
+      </ReleaseOpacity>
+      <ReleaseScale>
+        <Value>8</Value>
+        <Variation>0</Variation>
+      </ReleaseScale>
+      <ReleaseRotation>
+        <Value>0</Value>
+        <Variation>0</Variation>
+      </ReleaseRotation>
+      <ReleaseImpulse>0 0</ReleaseImpulse>
+      <ParticleTextureAssetName>Particle Effects//Textures//Particle003</ParticleTextureAssetName>
+      <Modifiers>
+        <Item Type="ProjectMercury.Modifiers.ColourModifier">
+          <InitialColour>1 0 0</InitialColour>
+          <UltimateColour>0.5019608 0 0</UltimateColour>
+        </Item>
+        <Item Type="ProjectMercury.Modifiers.OpacityModifier">
+          <Initial>1</Initial>
+          <Ultimate>0.5</Ultimate>
+        </Item>
+        <Item Type="ProjectMercury.Modifiers.RotationRateModifier">
+          <InitialRate>1.57079637</InitialRate>
+          <FinalRate>0</FinalRate>
+        </Item>
+      </Modifiers>
+      <BlendMode>Add</BlendMode>
+      <TriggerOffset>0 0</TriggerOffset>
+      <MinimumTriggerPeriod>0</MinimumTriggerPeriod>
+    </Item>
+    <Name>Magic Trail</Name>
+    <Author />
+    <Description />
+  </Asset>
+</XnaContent>
